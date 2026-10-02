@@ -1,4 +1,4 @@
-\# TwinGuard-X
+# TwinGuard-X
 
 
 
@@ -10,7 +10,7 @@ TwinGuard-X constructs an operational digital twin of building electricity consu
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -22,35 +22,35 @@ The repository does not redistribute the original dataset. Please obtain BDG2 fr
 
 
 
-\## Experimental Buildings
+## Experimental Buildings
 
 
 
-\- Robin\_public\_Cami
+- Robin\_public\_Cami
 
-\- Bear\_public\_Valorie
+- Bear\_public\_Valorie
 
-\- Hog\_public\_Gerard
-
-
-
-\## Anomaly Types
+- Hog\_public\_Gerard
 
 
 
-\- Spike
-
-\- Persistent shift
-
-\- Gradual drift
-
-\- Stuck value
-
-\- Contextual after-hours deviation
+## Anomaly Types
 
 
 
-\## Repository Structure
+- Spike
+
+- Persistent shift
+
+- Gradual drift
+
+- Stuck value
+
+- Contextual after-hours deviation
+
+
+
+## Repository Structure
 
 
 
