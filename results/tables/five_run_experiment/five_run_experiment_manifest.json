@@ -1,0 +1,64 @@
+{
+    "experiment": "EIRT 2026 TwinGuard-X v3 five independent runs",
+    "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+    ],
+    "n_runs": 5,
+    "standard_deviation": "sample SD (ddof=1)",
+    "aggregation": "Metrics are first averaged across the three buildings within each seed; mean and sample SD are then calculated across the five independent seeds.",
+    "fixed_across_runs": [
+        "building selection",
+        "train/validation/final-test partition",
+        "anomaly timestamps",
+        "anomaly types",
+        "anomaly magnitudes",
+        "architecture",
+        "hyperparameters",
+        "calibration procedure"
+    ],
+    "varied_across_runs": [
+        "random seed",
+        "neural-network initialization",
+        "mini-batch ordering",
+        "stochastic model training",
+        "Isolation Forest random state",
+        "Autoencoder initialization/training"
+    ],
+    "runs": [
+        {
+            "run": 1,
+            "seed": 42,
+            "elapsed_seconds": 965.4966999000007,
+            "status": "complete"
+        },
+        {
+            "run": 2,
+            "seed": 43,
+            "elapsed_seconds": 1019.8840292000004,
+            "status": "complete"
+        },
+        {
+            "run": 3,
+            "seed": 44,
+            "elapsed_seconds": 784.7715439999993,
+            "status": "complete"
+        },
+        {
+            "run": 4,
+            "seed": 45,
+            "elapsed_seconds": 833.9390244999995,
+            "status": "complete"
+        },
+        {
+            "run": 5,
+            "seed": 46,
+            "elapsed_seconds": 1010.2727973000001,
+            "status": "complete"
+        }
+    ],
+    "total_elapsed_seconds": 4614.445144300001
+}

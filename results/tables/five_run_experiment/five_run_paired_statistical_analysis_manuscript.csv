@@ -1,0 +1,10 @@
+metric,baseline,mean_difference,W,p_raw,p_holm,rank_biserial_effect,effect_magnitude,direction
+F1,Isolation Forest,0.3267046478731102,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+F1,LOF,0.1897475650513598,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+F1,Autoencoder,0.2577105645315728,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+AUPRC,Isolation Forest,0.40003628958319126,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+AUPRC,LOF,0.1747343305706178,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+AUPRC,Autoencoder,0.2677080180995177,0.0,0.0625,0.1875,1.0,large,TwinGuard-X higher
+FPR,Isolation Forest,-0.21268705134527915,0.0,0.0625,0.1875,-1.0,large,TwinGuard-X lower
+FPR,LOF,-0.1517006148202968,0.0,0.0625,0.1875,-1.0,large,TwinGuard-X lower
+FPR,Autoencoder,-0.17397724577361742,0.0,0.0625,0.1875,-1.0,large,TwinGuard-X lower

@@ -1,0 +1,42 @@
+{
+    "model": "TwinGuard-X v3",
+    "status": "DEVELOPMENT_COMPLETE_PENDING_REVIEW",
+    "seed": 46,
+    "history_hours": 24,
+    "epochs": 80,
+    "training_weeks": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        24,
+        26
+    ],
+    "validation_weeks": [
+        4,
+        7,
+        14,
+        18,
+        23
+    ],
+    "locked_final_test_weeks": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        13,
+        21,
+        25
+    ],
+    "final_test_evaluated": false,
+    "note": "All model training, reliability-weight selection and threshold calibration were performed without evaluating the locked final-test partition."
+}

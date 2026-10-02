@@ -1,0 +1,16 @@
+building_id,anomaly_type,observations
+Robin_public_Cami,gradual_drift,48
+Robin_public_Cami,persistent_shift,24
+Robin_public_Cami,stuck,24
+Robin_public_Cami,contextual_after_hours,12
+Robin_public_Cami,spike,8
+Bear_public_Valorie,gradual_drift,48
+Bear_public_Valorie,stuck,24
+Bear_public_Valorie,persistent_shift,24
+Bear_public_Valorie,contextual_after_hours,12
+Bear_public_Valorie,spike,8
+Hog_public_Gerard,gradual_drift,48
+Hog_public_Gerard,persistent_shift,24
+Hog_public_Gerard,stuck,24
+Hog_public_Gerard,contextual_after_hours,12
+Hog_public_Gerard,spike,8

@@ -1,0 +1,21 @@
+seed,model,anomaly_type,recall
+46,Autoencoder,contextual_after_hours,0.9722222222222222
+46,Autoencoder,gradual_drift,0.6597222222222222
+46,Autoencoder,persistent_shift,0.7473118279569894
+46,Autoencoder,spike,1.0
+46,Autoencoder,stuck,0.1944444444444444
+46,Isolation Forest,contextual_after_hours,0.4722222222222221
+46,Isolation Forest,gradual_drift,0.4305555555555555
+46,Isolation Forest,persistent_shift,0.4560931899641576
+46,Isolation Forest,spike,0.611111111111111
+46,Isolation Forest,stuck,0.0694444444444444
+46,LOF,contextual_after_hours,1.0
+46,LOF,gradual_drift,0.6388888888888888
+46,LOF,persistent_shift,0.815284178187404
+46,LOF,spike,1.0
+46,LOF,stuck,0.0972222222222222
+46,TwinGuard-X v3,contextual_after_hours,1.0
+46,TwinGuard-X v3,gradual_drift,0.4375
+46,TwinGuard-X v3,persistent_shift,0.8384536610343062
+46,TwinGuard-X v3,spike,0.9666666666666668
+46,TwinGuard-X v3,stuck,0.2777777777777778

@@ -1,0 +1,16 @@
+building_id,component,weight
+Robin_public_Cami,contextual_residual,0.7
+Robin_public_Cami,residual_dynamics,0.1
+Robin_public_Cami,persistence_3h,0.2
+Robin_public_Cami,persistence_6h,0.0
+Robin_public_Cami,persistence_12h,0.0
+Bear_public_Valorie,contextual_residual,0.29999999999999993
+Bear_public_Valorie,residual_dynamics,0.0
+Bear_public_Valorie,persistence_3h,0.575
+Bear_public_Valorie,persistence_6h,0.125
+Bear_public_Valorie,persistence_12h,1.1102230246251565e-16
+Hog_public_Gerard,contextual_residual,0.7000000000000001
+Hog_public_Gerard,residual_dynamics,0.0
+Hog_public_Gerard,persistence_3h,0.0
+Hog_public_Gerard,persistence_6h,0.27499999999999997
+Hog_public_Gerard,persistence_12h,0.02499999999999991

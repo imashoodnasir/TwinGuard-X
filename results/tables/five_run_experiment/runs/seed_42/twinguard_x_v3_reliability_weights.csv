@@ -1,0 +1,16 @@
+seed,building_id,component,weight
+42,Robin_public_Cami,contextual_residual,0.9
+42,Robin_public_Cami,residual_dynamics,0.0249999999999999
+42,Robin_public_Cami,persistence_3h,0.0
+42,Robin_public_Cami,persistence_6h,0.0
+42,Robin_public_Cami,persistence_12h,0.0749999999999999
+42,Bear_public_Valorie,contextual_residual,0.2749999999999999
+42,Bear_public_Valorie,residual_dynamics,0.0
+42,Bear_public_Valorie,persistence_3h,0.6499999999999999
+42,Bear_public_Valorie,persistence_6h,0.0749999999999999
+42,Bear_public_Valorie,persistence_12h,2.220446049250313e-16
+42,Hog_public_Gerard,contextual_residual,0.3
+42,Hog_public_Gerard,residual_dynamics,0.0
+42,Hog_public_Gerard,persistence_3h,0.5
+42,Hog_public_Gerard,persistence_6h,0.2
+42,Hog_public_Gerard,persistence_12h,0.0

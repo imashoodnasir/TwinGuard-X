@@ -1,0 +1,4 @@
+building_id,train_blocks,test_blocks,train_observations,test_observations,test_anomalies,test_anomaly_rate,train_start,train_end,test_start,test_end
+Robin_public_Cami,19,8,3048,1344,130,0.09672619047619048,2016-07-02,2016-12-31 23:00:00,2016-07-09,2016-12-30 23:00:00
+Bear_public_Valorie,19,8,3048,1344,130,0.09672619047619048,2016-07-02,2016-12-31 23:00:00,2016-07-09,2016-12-30 23:00:00
+Hog_public_Gerard,19,8,3048,1344,130,0.09672619047619048,2016-07-02,2016-12-31 23:00:00,2016-07-09,2016-12-30 23:00:00

@@ -1,0 +1,16 @@
+building_id,component,mean_gate
+Robin_public_Cami,twin_residual,0.60484797
+Robin_public_Cami,residual_dynamics,0.36702436
+Robin_public_Cami,persistence_3h,0.26140207
+Robin_public_Cami,persistence_6h,0.26486057
+Robin_public_Cami,persistence_12h,0.31972903
+Bear_public_Valorie,twin_residual,0.36408526
+Bear_public_Valorie,residual_dynamics,0.4943188
+Bear_public_Valorie,persistence_3h,0.42457017
+Bear_public_Valorie,persistence_6h,0.4958735
+Bear_public_Valorie,persistence_12h,0.47561845
+Hog_public_Gerard,twin_residual,0.46061426
+Hog_public_Gerard,residual_dynamics,0.4868606
+Hog_public_Gerard,persistence_3h,0.294062
+Hog_public_Gerard,persistence_6h,0.39869046
+Hog_public_Gerard,persistence_12h,0.30956268

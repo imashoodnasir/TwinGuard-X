@@ -1,0 +1,16 @@
+seed,building_id,anomaly_type,n,recall
+43,Robin_public_Cami,spike,10,1.0
+43,Robin_public_Cami,persistent_shift,24,1.0
+43,Robin_public_Cami,gradual_drift,48,0.8541666666666666
+43,Robin_public_Cami,stuck,24,0.125
+43,Robin_public_Cami,contextual_after_hours,12,1.0
+43,Bear_public_Valorie,spike,10,1.0
+43,Bear_public_Valorie,persistent_shift,28,0.6071428571428571
+43,Bear_public_Valorie,gradual_drift,48,0.25
+43,Bear_public_Valorie,stuck,24,0.7083333333333334
+43,Bear_public_Valorie,contextual_after_hours,6,1.0
+43,Hog_public_Gerard,spike,9,1.0
+43,Hog_public_Gerard,persistent_shift,31,0.9032258064516128
+43,Hog_public_Gerard,gradual_drift,48,0.6458333333333334
+43,Hog_public_Gerard,stuck,24,0.0416666666666666
+43,Hog_public_Gerard,contextual_after_hours,12,1.0

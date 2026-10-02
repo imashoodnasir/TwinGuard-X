@@ -1,0 +1,46 @@
+building_id,model,anomaly_type,n_anomalous_hours,recall
+Robin_public_Cami,Isolation Forest,spike,10,0.7
+Robin_public_Cami,Isolation Forest,persistent_shift,36,0.9166666666666666
+Robin_public_Cami,Isolation Forest,gradual_drift,48,0.0
+Robin_public_Cami,Isolation Forest,stuck,24,0.20833333333333334
+Robin_public_Cami,Isolation Forest,contextual_after_hours,12,0.75
+Robin_public_Cami,LOF,spike,10,1.0
+Robin_public_Cami,LOF,persistent_shift,36,1.0
+Robin_public_Cami,LOF,gradual_drift,48,0.6458333333333334
+Robin_public_Cami,LOF,stuck,24,1.0
+Robin_public_Cami,LOF,contextual_after_hours,12,1.0
+Robin_public_Cami,Autoencoder,spike,10,1.0
+Robin_public_Cami,Autoencoder,persistent_shift,36,1.0
+Robin_public_Cami,Autoencoder,gradual_drift,48,0.020833333333333332
+Robin_public_Cami,Autoencoder,stuck,24,0.125
+Robin_public_Cami,Autoencoder,contextual_after_hours,12,0.3333333333333333
+Bear_public_Valorie,Isolation Forest,spike,10,0.9
+Bear_public_Valorie,Isolation Forest,persistent_shift,36,1.0
+Bear_public_Valorie,Isolation Forest,gradual_drift,48,0.6666666666666666
+Bear_public_Valorie,Isolation Forest,stuck,24,1.0
+Bear_public_Valorie,Isolation Forest,contextual_after_hours,12,1.0
+Bear_public_Valorie,LOF,spike,10,1.0
+Bear_public_Valorie,LOF,persistent_shift,36,1.0
+Bear_public_Valorie,LOF,gradual_drift,48,0.7291666666666666
+Bear_public_Valorie,LOF,stuck,24,0.9166666666666666
+Bear_public_Valorie,LOF,contextual_after_hours,12,1.0
+Bear_public_Valorie,Autoencoder,spike,10,0.9
+Bear_public_Valorie,Autoencoder,persistent_shift,36,1.0
+Bear_public_Valorie,Autoencoder,gradual_drift,48,0.6458333333333334
+Bear_public_Valorie,Autoencoder,stuck,24,1.0
+Bear_public_Valorie,Autoencoder,contextual_after_hours,12,1.0
+Hog_public_Gerard,Isolation Forest,spike,10,1.0
+Hog_public_Gerard,Isolation Forest,persistent_shift,36,0.8055555555555556
+Hog_public_Gerard,Isolation Forest,gradual_drift,48,0.5208333333333334
+Hog_public_Gerard,Isolation Forest,stuck,24,1.0
+Hog_public_Gerard,Isolation Forest,contextual_after_hours,12,1.0
+Hog_public_Gerard,LOF,spike,10,1.0
+Hog_public_Gerard,LOF,persistent_shift,36,1.0
+Hog_public_Gerard,LOF,gradual_drift,48,0.875
+Hog_public_Gerard,LOF,stuck,24,1.0
+Hog_public_Gerard,LOF,contextual_after_hours,12,1.0
+Hog_public_Gerard,Autoencoder,spike,10,1.0
+Hog_public_Gerard,Autoencoder,persistent_shift,36,1.0
+Hog_public_Gerard,Autoencoder,gradual_drift,48,0.8333333333333334
+Hog_public_Gerard,Autoencoder,stuck,24,1.0
+Hog_public_Gerard,Autoencoder,contextual_after_hours,12,0.75

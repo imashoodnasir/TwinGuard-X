@@ -1,0 +1,16 @@
+building_id,variant,contextual_residual,residual_dynamics,persistence_3h,persistence_6h,persistence_12h
+Robin_public_Cami,Full TwinGuard-X v3,0.9,0.0249999999999999,0.0,0.0,0.0749999999999999
+Robin_public_Cami,w/o Context,0.0,0.2499999999999995,0.0,0.0,0.7500000000000006
+Robin_public_Cami,w/o Multi-scale Persistence,0.972972972972973,0.02702702702702692,0.0,0.0,0.0
+Robin_public_Cami,Residual Only,1.0,0.0,0.0,0.0,0.0
+Robin_public_Cami,Equal Fusion,0.2,0.2,0.2,0.2,0.2
+Bear_public_Valorie,Full TwinGuard-X v3,0.2749999999999999,0.0,0.6499999999999999,0.0749999999999999,0.0
+Bear_public_Valorie,w/o Context,0.0,0.0,0.896551724137931,0.10344827586206885,0.0
+Bear_public_Valorie,w/o Multi-scale Persistence,1.0,0.0,0.0,0.0,0.0
+Bear_public_Valorie,Residual Only,1.0,0.0,0.0,0.0,0.0
+Bear_public_Valorie,Equal Fusion,0.2,0.2,0.2,0.2,0.2
+Hog_public_Gerard,Full TwinGuard-X v3,0.3,0.0,0.5,0.2,0.0
+Hog_public_Gerard,w/o Context,0.0,0.0,0.7142857142857143,0.28571428571428575,0.0
+Hog_public_Gerard,w/o Multi-scale Persistence,1.0,0.0,0.0,0.0,0.0
+Hog_public_Gerard,Residual Only,1.0,0.0,0.0,0.0,0.0
+Hog_public_Gerard,Equal Fusion,0.2,0.2,0.2,0.2,0.2

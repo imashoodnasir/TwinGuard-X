@@ -1,0 +1,26 @@
+variant,anomaly_type,recall
+Equal Fusion,contextual_after_hours,0.6666666666666666
+Equal Fusion,gradual_drift,0.4439716312056738
+Equal Fusion,persistent_shift,0.38888888888888884
+Equal Fusion,spike,1.0
+Equal Fusion,stuck,0.42777777777777776
+Full TwinGuard-X v3,contextual_after_hours,0.8888888888888888
+Full TwinGuard-X v3,gradual_drift,0.3998817966903074
+Full TwinGuard-X v3,persistent_shift,0.36111111111111116
+Full TwinGuard-X v3,spike,1.0
+Full TwinGuard-X v3,stuck,0.4916666666666667
+Residual Only,contextual_after_hours,0.9444444444444445
+Residual Only,gradual_drift,0.5800236406619386
+Residual Only,persistent_shift,0.5555555555555555
+Residual Only,spike,1.0
+Residual Only,stuck,0.4083333333333334
+w/o Context,contextual_after_hours,0.0
+w/o Context,gradual_drift,0.03611111111111111
+w/o Context,persistent_shift,0.05555555555555555
+w/o Context,spike,0.16666666666666666
+w/o Context,stuck,0.4333333333333333
+w/o Multi-scale Persistence,contextual_after_hours,0.9444444444444445
+w/o Multi-scale Persistence,gradual_drift,0.5800236406619386
+w/o Multi-scale Persistence,persistent_shift,0.5555555555555555
+w/o Multi-scale Persistence,spike,1.0
+w/o Multi-scale Persistence,stuck,0.4083333333333334

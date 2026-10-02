@@ -1,0 +1,61 @@
+seed,building_id,model,anomaly_type,n,recall
+43,Bear_public_Valorie,Autoencoder,spike,10,0.7
+43,Bear_public_Valorie,Autoencoder,persistent_shift,28,0.1785714285714285
+43,Bear_public_Valorie,Autoencoder,gradual_drift,48,0.1458333333333333
+43,Bear_public_Valorie,Autoencoder,stuck,24,0.0
+43,Bear_public_Valorie,Autoencoder,contextual_after_hours,6,0.0
+43,Bear_public_Valorie,Isolation Forest,spike,10,0.9
+43,Bear_public_Valorie,Isolation Forest,persistent_shift,28,0.2142857142857142
+43,Bear_public_Valorie,Isolation Forest,gradual_drift,48,0.25
+43,Bear_public_Valorie,Isolation Forest,stuck,24,0.125
+43,Bear_public_Valorie,Isolation Forest,contextual_after_hours,6,0.0
+43,Bear_public_Valorie,LOF,spike,10,1.0
+43,Bear_public_Valorie,LOF,persistent_shift,28,0.6071428571428571
+43,Bear_public_Valorie,LOF,gradual_drift,48,0.3958333333333333
+43,Bear_public_Valorie,LOF,stuck,24,0.0
+43,Bear_public_Valorie,LOF,contextual_after_hours,6,1.0
+43,Bear_public_Valorie,TwinGuard-X v3,spike,10,1.0
+43,Bear_public_Valorie,TwinGuard-X v3,persistent_shift,28,0.6071428571428571
+43,Bear_public_Valorie,TwinGuard-X v3,gradual_drift,48,0.25
+43,Bear_public_Valorie,TwinGuard-X v3,stuck,24,0.7083333333333334
+43,Bear_public_Valorie,TwinGuard-X v3,contextual_after_hours,6,1.0
+43,Hog_public_Gerard,Autoencoder,spike,9,1.0
+43,Hog_public_Gerard,Autoencoder,persistent_shift,31,0.6451612903225806
+43,Hog_public_Gerard,Autoencoder,gradual_drift,48,0.4583333333333333
+43,Hog_public_Gerard,Autoencoder,stuck,24,0.4583333333333333
+43,Hog_public_Gerard,Autoencoder,contextual_after_hours,12,0.9166666666666666
+43,Hog_public_Gerard,Isolation Forest,spike,9,0.3333333333333333
+43,Hog_public_Gerard,Isolation Forest,persistent_shift,31,0.3870967741935484
+43,Hog_public_Gerard,Isolation Forest,gradual_drift,48,0.2708333333333333
+43,Hog_public_Gerard,Isolation Forest,stuck,24,0.125
+43,Hog_public_Gerard,Isolation Forest,contextual_after_hours,12,0.5833333333333334
+43,Hog_public_Gerard,LOF,spike,9,1.0
+43,Hog_public_Gerard,LOF,persistent_shift,31,0.8387096774193549
+43,Hog_public_Gerard,LOF,gradual_drift,48,0.625
+43,Hog_public_Gerard,LOF,stuck,24,0.125
+43,Hog_public_Gerard,LOF,contextual_after_hours,12,1.0
+43,Hog_public_Gerard,TwinGuard-X v3,spike,9,1.0
+43,Hog_public_Gerard,TwinGuard-X v3,persistent_shift,31,0.9032258064516128
+43,Hog_public_Gerard,TwinGuard-X v3,gradual_drift,48,0.6458333333333334
+43,Hog_public_Gerard,TwinGuard-X v3,stuck,24,0.0416666666666666
+43,Hog_public_Gerard,TwinGuard-X v3,contextual_after_hours,12,1.0
+43,Robin_public_Cami,Autoencoder,spike,10,1.0
+43,Robin_public_Cami,Autoencoder,persistent_shift,24,1.0
+43,Robin_public_Cami,Autoencoder,gradual_drift,48,0.6666666666666666
+43,Robin_public_Cami,Autoencoder,stuck,24,0.0
+43,Robin_public_Cami,Autoencoder,contextual_after_hours,12,0.9166666666666666
+43,Robin_public_Cami,Isolation Forest,spike,10,0.7
+43,Robin_public_Cami,Isolation Forest,persistent_shift,24,0.9583333333333334
+43,Robin_public_Cami,Isolation Forest,gradual_drift,48,0.7916666666666666
+43,Robin_public_Cami,Isolation Forest,stuck,24,0.0
+43,Robin_public_Cami,Isolation Forest,contextual_after_hours,12,0.3333333333333333
+43,Robin_public_Cami,LOF,spike,10,1.0
+43,Robin_public_Cami,LOF,persistent_shift,24,1.0
+43,Robin_public_Cami,LOF,gradual_drift,48,0.8958333333333334
+43,Robin_public_Cami,LOF,stuck,24,0.1666666666666666
+43,Robin_public_Cami,LOF,contextual_after_hours,12,1.0
+43,Robin_public_Cami,TwinGuard-X v3,spike,10,1.0
+43,Robin_public_Cami,TwinGuard-X v3,persistent_shift,24,1.0
+43,Robin_public_Cami,TwinGuard-X v3,gradual_drift,48,0.8541666666666666
+43,Robin_public_Cami,TwinGuard-X v3,stuck,24,0.125
+43,Robin_public_Cami,TwinGuard-X v3,contextual_after_hours,12,1.0

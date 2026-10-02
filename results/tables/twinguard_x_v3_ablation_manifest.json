@@ -1,0 +1,23 @@
+{
+  "experiment": "TwinGuard-X v3 validation ablation",
+  "data_partition": "validation only",
+  "final_test_accessed": false,
+  "model_retrained": false,
+  "threshold_recalibrated": false,
+  "ablation_rule": "Remove specified frozen evidence components and renormalize remaining frozen reliability weights.",
+  "threshold_rule": "Retain original frozen building-specific TwinGuard-X v3 threshold.",
+  "variants": [
+    "Full TwinGuard-X v3",
+    "w/o Context",
+    "w/o Multi-scale Persistence",
+    "Residual Only",
+    "Equal Fusion"
+  ],
+  "components": [
+    "contextual_residual",
+    "residual_dynamics",
+    "persistence_3h",
+    "persistence_6h",
+    "persistence_12h"
+  ]
+}

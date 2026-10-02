@@ -1,0 +1,44 @@
+{
+    "model": "TwinGuard-X v3",
+    "status": "FINAL_TEST_EVALUATED_DO_NOT_RETUNE",
+    "seed": 46,
+    "history_hours": 24,
+    "epochs": 80,
+    "training_weeks": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        24,
+        26
+    ],
+    "validation_weeks": [
+        4,
+        7,
+        14,
+        18,
+        23
+    ],
+    "locked_final_test_weeks": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        13,
+        21,
+        25
+    ],
+    "final_test_evaluated": true,
+    "note": "All model training, reliability-weight selection and threshold calibration were performed without evaluating the locked final-test partition.",
+    "final_test_results_file": "twinguard_x_v3_FINAL_locked_test_performance.csv",
+    "warning": "The locked final-test results have now been observed. Do not modify model architecture, reliability weights, thresholds, preprocessing, or hyperparameters based on these results and then report evaluation on the same test set as unseen performance."
+}

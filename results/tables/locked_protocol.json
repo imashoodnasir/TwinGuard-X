@@ -1,0 +1,38 @@
+{
+    "seed": 42,
+    "training_weeks": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        24,
+        26
+    ],
+    "validation_weeks": [
+        4,
+        7,
+        14,
+        18,
+        23
+    ],
+    "final_test_weeks": [
+        1,
+        8,
+        9,
+        10,
+        11,
+        13,
+        21,
+        25
+    ],
+    "status": "LOCKED",
+    "note": "Final-test weeks must not be used for architecture, fusion, threshold, or hyperparameter selection."
+}

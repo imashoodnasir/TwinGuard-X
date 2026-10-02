@@ -1,0 +1,4 @@
+building_id,site_id,primary_use,subtype,floor_area_m2,year_built,start,end,observations,train_observations,test_observations,electricity_missing_before,electricity_mean,electricity_std,electricity_min,electricity_max
+Robin_public_Cami,Robin,Public services,Library,5261.0,1900.0,2016-07-02,2016-12-31 23:00:00,4392,3074,1318,0,78.4535695582878,21.831682167562377,25.5,126.5
+Bear_public_Valorie,Bear,Public services,Public services,17598.2,1994.0,2016-07-02,2016-12-31 23:00:00,4392,3074,1318,0,187.89452497723133,91.15229613435126,37.0,421.5
+Hog_public_Gerard,Hog,Public services,Library,7725.3,,2016-07-02,2016-12-31 23:00:00,4392,3074,1318,0,60.735825591985424,22.97810092199565,25.067,102.369

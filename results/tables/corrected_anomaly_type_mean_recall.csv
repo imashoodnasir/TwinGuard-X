@@ -1,0 +1,16 @@
+model,anomaly_type,recall
+Autoencoder,contextual_after_hours,0.4166666666666667
+Autoencoder,gradual_drift,0.5277777777777778
+Autoencoder,persistent_shift,0.5185185185185185
+Autoencoder,spike,0.9
+Autoencoder,stuck,0.027777777777777776
+Isolation Forest,contextual_after_hours,0.9722222222222222
+Isolation Forest,gradual_drift,0.6527777777777778
+Isolation Forest,persistent_shift,0.7592592592592592
+Isolation Forest,spike,1.0
+Isolation Forest,stuck,0.05555555555555555
+LOF,contextual_after_hours,1.0
+LOF,gradual_drift,0.7569444444444445
+LOF,persistent_shift,0.8425925925925926
+LOF,spike,0.9666666666666667
+LOF,stuck,0.11111111111111112

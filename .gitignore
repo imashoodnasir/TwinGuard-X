@@ -1,0 +1,49 @@
+# ============================================================
+# TwinGuard-X
+# ============================================================
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary/log files
+*.log
+*.tmp
+~*
+
+# Secrets
+.env
+*.key
+credentials.json
+
+# ------------------------------------------------------------
+# Original/raw datasets
+# ------------------------------------------------------------
+data/raw/
+
+# ------------------------------------------------------------
+# Trained model artifacts
+# ------------------------------------------------------------
+*.pth
+*.pt
+*.ckpt
+
+# ------------------------------------------------------------
+# Large/intermediate prediction outputs
+# ------------------------------------------------------------
+results/tables/*predictions*.csv
+results/tables/five_run_experiment/runs/*/*predictions*.csv

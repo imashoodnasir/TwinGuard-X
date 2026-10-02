@@ -1,0 +1,76 @@
+building_id,variant,anomaly_type,n,recall
+Robin_public_Cami,Full TwinGuard-X v3,spike,8,1.0
+Robin_public_Cami,Full TwinGuard-X v3,persistent_shift,12,0.08333333333333333
+Robin_public_Cami,Full TwinGuard-X v3,gradual_drift,48,0.25
+Robin_public_Cami,Full TwinGuard-X v3,stuck,15,0.26666666666666666
+Robin_public_Cami,Full TwinGuard-X v3,contextual_after_hours,12,1.0
+Robin_public_Cami,w/o Context,spike,8,0.5
+Robin_public_Cami,w/o Context,persistent_shift,12,0.0
+Robin_public_Cami,w/o Context,gradual_drift,48,0.041666666666666664
+Robin_public_Cami,w/o Context,stuck,15,0.13333333333333333
+Robin_public_Cami,w/o Context,contextual_after_hours,12,0.0
+Robin_public_Cami,w/o Multi-scale Persistence,spike,8,1.0
+Robin_public_Cami,w/o Multi-scale Persistence,persistent_shift,12,0.16666666666666666
+Robin_public_Cami,w/o Multi-scale Persistence,gradual_drift,48,0.25
+Robin_public_Cami,w/o Multi-scale Persistence,stuck,15,0.26666666666666666
+Robin_public_Cami,w/o Multi-scale Persistence,contextual_after_hours,12,1.0
+Robin_public_Cami,Residual Only,spike,8,1.0
+Robin_public_Cami,Residual Only,persistent_shift,12,0.16666666666666666
+Robin_public_Cami,Residual Only,gradual_drift,48,0.25
+Robin_public_Cami,Residual Only,stuck,15,0.26666666666666666
+Robin_public_Cami,Residual Only,contextual_after_hours,12,1.0
+Robin_public_Cami,Equal Fusion,spike,8,1.0
+Robin_public_Cami,Equal Fusion,persistent_shift,12,0.0
+Robin_public_Cami,Equal Fusion,gradual_drift,48,0.0
+Robin_public_Cami,Equal Fusion,stuck,15,0.2
+Robin_public_Cami,Equal Fusion,contextual_after_hours,12,0.25
+Bear_public_Valorie,Full TwinGuard-X v3,spike,7,1.0
+Bear_public_Valorie,Full TwinGuard-X v3,persistent_shift,24,0.2916666666666667
+Bear_public_Valorie,Full TwinGuard-X v3,gradual_drift,30,0.5666666666666667
+Bear_public_Valorie,Full TwinGuard-X v3,stuck,24,0.7083333333333334
+Bear_public_Valorie,Full TwinGuard-X v3,contextual_after_hours,12,0.6666666666666666
+Bear_public_Valorie,w/o Context,spike,7,0.0
+Bear_public_Valorie,w/o Context,persistent_shift,24,0.16666666666666666
+Bear_public_Valorie,w/o Context,gradual_drift,30,0.06666666666666667
+Bear_public_Valorie,w/o Context,stuck,24,0.6666666666666666
+Bear_public_Valorie,w/o Context,contextual_after_hours,12,0.0
+Bear_public_Valorie,w/o Multi-scale Persistence,spike,7,1.0
+Bear_public_Valorie,w/o Multi-scale Persistence,persistent_shift,24,0.6666666666666666
+Bear_public_Valorie,w/o Multi-scale Persistence,gradual_drift,30,0.7666666666666667
+Bear_public_Valorie,w/o Multi-scale Persistence,stuck,24,0.375
+Bear_public_Valorie,w/o Multi-scale Persistence,contextual_after_hours,12,0.8333333333333334
+Bear_public_Valorie,Residual Only,spike,7,1.0
+Bear_public_Valorie,Residual Only,persistent_shift,24,0.6666666666666666
+Bear_public_Valorie,Residual Only,gradual_drift,30,0.7666666666666667
+Bear_public_Valorie,Residual Only,stuck,24,0.375
+Bear_public_Valorie,Residual Only,contextual_after_hours,12,0.8333333333333334
+Bear_public_Valorie,Equal Fusion,spike,7,1.0
+Bear_public_Valorie,Equal Fusion,persistent_shift,24,0.5
+Bear_public_Valorie,Equal Fusion,gradual_drift,30,0.8
+Bear_public_Valorie,Equal Fusion,stuck,24,0.6666666666666666
+Bear_public_Valorie,Equal Fusion,contextual_after_hours,12,0.9166666666666666
+Hog_public_Gerard,Full TwinGuard-X v3,spike,8,1.0
+Hog_public_Gerard,Full TwinGuard-X v3,persistent_shift,24,0.7083333333333334
+Hog_public_Gerard,Full TwinGuard-X v3,gradual_drift,47,0.3829787234042553
+Hog_public_Gerard,Full TwinGuard-X v3,stuck,12,0.5
+Hog_public_Gerard,Full TwinGuard-X v3,contextual_after_hours,6,1.0
+Hog_public_Gerard,w/o Context,spike,8,0.0
+Hog_public_Gerard,w/o Context,persistent_shift,24,0.0
+Hog_public_Gerard,w/o Context,gradual_drift,47,0.0
+Hog_public_Gerard,w/o Context,stuck,12,0.5
+Hog_public_Gerard,w/o Context,contextual_after_hours,6,0.0
+Hog_public_Gerard,w/o Multi-scale Persistence,spike,8,1.0
+Hog_public_Gerard,w/o Multi-scale Persistence,persistent_shift,24,0.8333333333333334
+Hog_public_Gerard,w/o Multi-scale Persistence,gradual_drift,47,0.723404255319149
+Hog_public_Gerard,w/o Multi-scale Persistence,stuck,12,0.5833333333333334
+Hog_public_Gerard,w/o Multi-scale Persistence,contextual_after_hours,6,1.0
+Hog_public_Gerard,Residual Only,spike,8,1.0
+Hog_public_Gerard,Residual Only,persistent_shift,24,0.8333333333333334
+Hog_public_Gerard,Residual Only,gradual_drift,47,0.723404255319149
+Hog_public_Gerard,Residual Only,stuck,12,0.5833333333333334
+Hog_public_Gerard,Residual Only,contextual_after_hours,6,1.0
+Hog_public_Gerard,Equal Fusion,spike,8,1.0
+Hog_public_Gerard,Equal Fusion,persistent_shift,24,0.6666666666666666
+Hog_public_Gerard,Equal Fusion,gradual_drift,47,0.5319148936170213
+Hog_public_Gerard,Equal Fusion,stuck,12,0.4166666666666667
+Hog_public_Gerard,Equal Fusion,contextual_after_hours,6,0.8333333333333334

@@ -1,0 +1,16 @@
+building_id,model,anomaly_type,n,recall
+Robin_public_Cami,TwinGuard-X v2,spike,10,0.5
+Robin_public_Cami,TwinGuard-X v2,persistent_shift,36,0.8611111111111112
+Robin_public_Cami,TwinGuard-X v2,gradual_drift,48,0.8958333333333334
+Robin_public_Cami,TwinGuard-X v2,stuck,24,0.5416666666666666
+Robin_public_Cami,TwinGuard-X v2,contextual_after_hours,12,0.9166666666666666
+Bear_public_Valorie,TwinGuard-X v2,spike,10,0.1
+Bear_public_Valorie,TwinGuard-X v2,persistent_shift,36,0.6944444444444444
+Bear_public_Valorie,TwinGuard-X v2,gradual_drift,48,0.5416666666666666
+Bear_public_Valorie,TwinGuard-X v2,stuck,24,0.4166666666666667
+Bear_public_Valorie,TwinGuard-X v2,contextual_after_hours,12,0.4166666666666667
+Hog_public_Gerard,TwinGuard-X v2,spike,10,0.0
+Hog_public_Gerard,TwinGuard-X v2,persistent_shift,36,0.8611111111111112
+Hog_public_Gerard,TwinGuard-X v2,gradual_drift,48,0.5625
+Hog_public_Gerard,TwinGuard-X v2,stuck,24,0.2916666666666667
+Hog_public_Gerard,TwinGuard-X v2,contextual_after_hours,12,0.8333333333333334

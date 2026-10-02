@@ -1,0 +1,10 @@
+metric,reference,baseline,n_pairs,reference_mean,baseline_mean,mean_difference_reference_minus_baseline,difference_sd,wilcoxon_statistic,p_raw,rank_biserial,effect_magnitude,p_holm,significant_0_05,metric_label,direction
+f1,TwinGuard-X v3,Isolation Forest,5,0.5186122213043991,0.1919075734312889,0.3267046478731102,0.035137102304688334,0.0,0.0625,1.0,large,0.1875,False,F1,TwinGuard-X higher
+f1,TwinGuard-X v3,LOF,5,0.5186122213043991,0.3288646562530393,0.1897475650513598,0.04699213748253441,0.0,0.0625,1.0,large,0.1875,False,F1,TwinGuard-X higher
+f1,TwinGuard-X v3,Autoencoder,5,0.5186122213043991,0.2609016567728263,0.2577105645315728,0.05664440996013403,0.0,0.0625,1.0,large,0.1875,False,F1,TwinGuard-X higher
+auprc,TwinGuard-X v3,Isolation Forest,5,0.5225870845755872,0.12255079499239588,0.40003628958319126,0.037270253469709455,0.0,0.0625,1.0,large,0.1875,False,AUPRC,TwinGuard-X higher
+auprc,TwinGuard-X v3,LOF,5,0.5225870845755872,0.3478527540049694,0.1747343305706178,0.038941398121428474,0.0,0.0625,1.0,large,0.1875,False,AUPRC,TwinGuard-X higher
+auprc,TwinGuard-X v3,Autoencoder,5,0.5225870845755872,0.2548790664760695,0.2677080180995177,0.06356861277164329,0.0,0.0625,1.0,large,0.1875,False,AUPRC,TwinGuard-X higher
+false_positive_rate,TwinGuard-X v3,Isolation Forest,5,0.08985396321602503,0.30254101456130417,-0.21268705134527915,0.03348333932135417,0.0,0.0625,-1.0,large,0.1875,False,FPR,TwinGuard-X lower
+false_positive_rate,TwinGuard-X v3,LOF,5,0.08985396321602503,0.2415545780363218,-0.1517006148202968,0.03394782926439788,0.0,0.0625,-1.0,large,0.1875,False,FPR,TwinGuard-X lower
+false_positive_rate,TwinGuard-X v3,Autoencoder,5,0.08985396321602503,0.26383120898964246,-0.17397724577361742,0.06983520528545856,0.0,0.0625,-1.0,large,0.1875,False,FPR,TwinGuard-X lower

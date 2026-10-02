@@ -1,0 +1,16 @@
+building_id,anomaly_type,n,recall
+Robin_public_Cami,spike,8,1.0
+Robin_public_Cami,persistent_shift,12,0.16666666666666666
+Robin_public_Cami,gradual_drift,48,0.20833333333333334
+Robin_public_Cami,stuck,15,0.26666666666666666
+Robin_public_Cami,contextual_after_hours,12,0.75
+Bear_public_Valorie,spike,7,1.0
+Bear_public_Valorie,persistent_shift,24,0.375
+Bear_public_Valorie,gradual_drift,30,0.6666666666666666
+Bear_public_Valorie,stuck,24,0.625
+Bear_public_Valorie,contextual_after_hours,12,0.4166666666666667
+Hog_public_Gerard,spike,8,1.0
+Hog_public_Gerard,persistent_shift,24,0.8333333333333334
+Hog_public_Gerard,gradual_drift,47,0.574468085106383
+Hog_public_Gerard,stuck,12,0.5
+Hog_public_Gerard,contextual_after_hours,6,1.0

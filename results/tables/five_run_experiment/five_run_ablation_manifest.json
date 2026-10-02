@@ -1,0 +1,40 @@
+{
+  "experiment": "Five-run TwinGuard-X v3 validation ablation",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "number_of_runs": 5,
+  "data_partition": "validation only",
+  "final_test_accessed": false,
+  "model_retrained": false,
+  "threshold_recalibrated": false,
+  "aggregation": "Metrics are first averaged across buildings within each independent seed. Mean and sample standard deviation are then calculated across the five seed-level results.",
+  "standard_deviation": "sample SD with ddof=1",
+  "ablation_rule": "Remove specified frozen evidence components and renormalize remaining frozen reliability weights.",
+  "threshold_rule": "Retain each seed's original frozen building-specific TwinGuard-X v3 threshold.",
+  "variants": [
+    "Full TwinGuard-X v3",
+    "w/o Context",
+    "w/o Multi-scale Persistence",
+    "Residual Only",
+    "Equal Fusion"
+  ],
+  "components": [
+    "contextual_residual",
+    "residual_dynamics",
+    "persistence_3h",
+    "persistence_6h",
+    "persistence_12h"
+  ],
+  "anomaly_types": [
+    "spike",
+    "persistent_shift",
+    "gradual_drift",
+    "stuck",
+    "contextual_after_hours"
+  ]
+}
